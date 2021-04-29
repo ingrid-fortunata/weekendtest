@@ -1,0 +1,51 @@
+.sectionblack-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 15% 0 0 0;
+}
+
+.sectionblack-title {
+  font-size: 2em;
+  font-weight: 900;
+  margin: 4% 0;
+}
+
+.sectionblack-text {
+  font-size: 1.125em;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: -0.64px;
+  width: 40vw;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.sectionblack-icon1 {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  margin-left: 75%;
+  margin-top: -5%;
+}
+
+.sectionblack-icon2 {
+  width: 15%;
+  height: 15%;
+  margin-top: -6%;
+}
+
+.sectionblack-helptips-container {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  margin-top: -8%;
+}
+
+.sectionblack-helptips-container:hover {
+  /* transform: scale(1); */
+  cursor: pointer;
+}

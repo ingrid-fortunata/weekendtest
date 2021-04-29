@@ -1,0 +1,46 @@
+.box {
+  background-color: #e5e5e5;
+  width: 20%;
+  height: 160px;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.box img {
+  max-width: 100%;
+}
+
+.box-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.box-over {
+  position: absolute;
+  text-align: left;
+  font-size: 0.65rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.531);
+  color: #fff;
+  padding: 0.5rem;
+  transform: translateY(102%);
+  transition: transform 0.3s ease-in-out;
+  overflow: auto;
+  max-height: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.386);
+  display: flex;
+}
+
+.box:hover .box-over {
+  transform: translateY(0%);
+}

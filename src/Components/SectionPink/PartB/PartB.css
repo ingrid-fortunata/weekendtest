@@ -1,0 +1,38 @@
+.partb-icon2 img {
+  /* background-color: #eebece; */
+  float: right;
+  /* overflow: hidden; */
+  position: relative;
+  top: -120px;
+  width: 9.938em;
+  height: 9.875em;
+}
+
+.partb-text {
+  width: 50%;
+  text-align: right;
+  font-size: 131.3%;
+  margin: 0 auto;
+  font-weight: 500;
+  line-height: 1.52;
+  letter-spacing: -0.75px;
+}
+
+.partb-text-2 {
+  color: white;
+  margin: 3% auto 0 auto;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+
+.partb-container {
+  padding: 5% 0;
+}
+
+.partb-icon22 img {
+  width: 5.563em;
+  height: 5.563em;
+  margin: 1.5% 0 1.5% 15%;
+}

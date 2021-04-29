@@ -1,0 +1,14 @@
+.footer-container {
+  padding: 1.5% 20%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0b24fb;
+  color: white;
+  font-size: 1em;
+}
+
+.footer-boxversion {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 1% 2%;
+}

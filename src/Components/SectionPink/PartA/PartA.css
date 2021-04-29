@@ -1,0 +1,88 @@
+.parta-container {
+  background-image: url("../../../Assets/background1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  height: 80vh;
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+.parta-icon1 {
+  width: 13%;
+  height: 23%;
+  position: relative;
+  text-align: center;
+}
+
+.parta-contain-title {
+  color: white;
+  font-weight: 900;
+  font-size: 400%;
+}
+
+.parta-contain-p {
+  color: white;
+  font-weight: 600;
+  font-size: 150%;
+  margin: 1.8% auto 5% auto;
+}
+
+.parta-button {
+  background-color: white;
+  box-shadow: 0 5px 10px 0;
+  border-radius: 29px;
+  padding: 1% 5%;
+  border: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: normal;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.parta-button:hover {
+  background-color: #ff8787;
+  font-weight: bold;
+}
+
+.parta-button:active {
+  box-shadow: none;
+  box-shadow: 0 5px #666;
+  /* transform: translateY(4px); */
+}
+
+@media screen and (max-width: 375px) {
+  .parta-button {
+    top: 80%;
+  }
+
+  .parta-icon1 {
+    width: 20%;
+    height: 30%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  .parta-button {
+    top: 60%;
+  }
+
+  .parta-icon1 {
+    width: 20%;
+    height: 30%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .parta-button {
+    top: 50%;
+  }
+
+  .parta-icon1 {
+    width: 20%;
+    height: 30%;
+  }
+}
