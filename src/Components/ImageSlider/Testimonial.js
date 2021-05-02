@@ -22,7 +22,19 @@ function Testimonial() {
   }, [TESTIMONIALS_API]);
 
   return (
-    <div>
+    <div className="main-testimonial">
+      <div
+        style={{
+          fontSize: "2em",
+          fontWeight: "900",
+          margin: "0 0 1vmin 0",
+          color: "white",
+          textAlign: "center",
+          backgroundColor: "transparent",
+        }}
+      >
+        Testimonial
+      </div>
       <Slide>
         {/* <div className="each-slide"> */}
         {testimonials.length > 0 &&

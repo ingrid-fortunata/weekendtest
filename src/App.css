@@ -7,10 +7,44 @@
 }
 
 .main-testimonial {
-  background-color: transparent;
-  position: absolute;
-  z-index: 1;
-  margin-top: -10%;
+  position: relative;
+  /* margin-top: -135px; */
+  margin-bottom: -90px;
+  background: -moz-linear-gradient(
+    top,
+    #eebece 0%,
+    #eebece 35%,
+    black 35%,
+    black 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #eebece 0%,
+    #eebece 35%,
+    black 35%,
+    black 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    #eebece 0%,
+    #eebece 35%,
+    black 35%,
+    black 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    #eebece 0%,
+    #eebece 35%,
+    black 35%,
+    black 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    #eebece 0%,
+    #eebece 35%,
+    black 35%,
+    black 100%
+  );
 }
 
 .main-pinkindex {

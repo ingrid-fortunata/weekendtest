@@ -49,3 +49,10 @@
   /* transform: scale(1); */
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .sectionblack-helptips-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

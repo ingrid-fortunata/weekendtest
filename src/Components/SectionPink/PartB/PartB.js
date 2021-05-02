@@ -22,7 +22,7 @@ function PartB() {
       <div className="partb-icon22">
         <img src={icon2_2} alt="icon2" />
       </div>
-      <div
+      {/* <div
         style={{
           fontSize: "2em",
           fontWeight: "900",
@@ -32,7 +32,7 @@ function PartB() {
         }}
       >
         Testimonial
-      </div>
+      </div> */}
     </div>
   );
 }
