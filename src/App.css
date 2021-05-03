@@ -9,40 +9,40 @@
 .main-testimonial {
   position: relative;
   /* margin-top: -135px; */
-  margin-bottom: -90px;
+  /* margin-bottom: -90px; */
   background: -moz-linear-gradient(
     top,
     #eebece 0%,
-    #eebece 35%,
-    black 35%,
+    #eebece 50%,
+    black 50%,
     black 100%
   );
   background: -webkit-linear-gradient(
     top,
     #eebece 0%,
-    #eebece 35%,
-    black 35%,
+    #eebece 50%,
+    black 50%,
     black 100%
   );
   background: -o-linear-gradient(
     top,
     #eebece 0%,
-    #eebece 35%,
-    black 35%,
+    #eebece 50%,
+    black 50%,
     black 100%
   );
   background: -ms-linear-gradient(
     top,
     #eebece 0%,
-    #eebece 35%,
-    black 35%,
+    #eebece 50%,
+    black 50%,
     black 100%
   );
   background: linear-gradient(
     to bottom,
     #eebece 0%,
-    #eebece 35%,
-    black 35%,
+    #eebece 50%,
+    black 50%,
     black 100%
   );
 }

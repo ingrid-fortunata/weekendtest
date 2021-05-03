@@ -2,7 +2,7 @@
   /* border: 1px solid black; */
   background-size: auto;
   background-color: white;
-  width: 20vw;
+  width: 20vmax;
   margin: 0 auto;
   padding: 3% 2%;
   box-shadow: 0 -10px 20px 0 rgba(249, 131, 171, 0.2);
@@ -24,10 +24,6 @@
   letter-spacing: -0.43px;
   padding-top: 5%;
   /* margin: 2.5% 0; */
-}
-
-.react-slideshow-container {
-  padding-bottom: 95px;
 }
 
 @media screen and (max-width: 600px) {

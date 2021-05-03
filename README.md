@@ -1,6 +1,6 @@
 # Getting Started
 
-This project is for Weekend Test to create a landing page.
+This project is for Weekend Test to create a responsive landing page.
 
 ## Available Scripts
 
